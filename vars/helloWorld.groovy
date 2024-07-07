@@ -4,3 +4,6 @@ def call(String name){
 def showVersion(String lang){
   sh "$lang -version"
 }
+def upTime(){
+  sh 'uptime'
+}
