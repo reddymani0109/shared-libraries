@@ -1,4 +1,4 @@
-def text='Dummy Text'
+text='Dummy Text'
 
 def call(String name){
   echo "Hello ${name}"
